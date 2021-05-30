@@ -23,7 +23,7 @@ function Header() {
                         placeholder='Search here' />
                 </div>
                 <div className='header-right'>
-                    <HelpOutlineIcon />
+                    <HelpOutlineIcon className='MUI-icon' />
                     <CloseIcon />
 
                 </div>
