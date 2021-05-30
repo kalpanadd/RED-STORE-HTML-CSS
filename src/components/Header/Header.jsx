@@ -1,6 +1,6 @@
 import React from 'react'
 
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import Avatar from '@material-ui/core/Avatar';
 import HistoryIcon from '@material-ui/icons/History';
 import SearchIcon from '@material-ui/icons/Search';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
@@ -12,20 +12,15 @@ function Header() {
         <div>
             <div className='header-container'>
                 <div className='header-left'>
-                    <AccountCircleIcon />
-                    <HistoryIcon className='header-historyicon' />
+                    <Avatar className='header-avtar' alt='image' />
+                    <HistoryIcon className='MUI-icon' />
 
                 </div>
                 <div className='header-center'>
-
                     <SearchIcon />
-
                     <input
                         type='text'
                         placeholder='Search here' />
-
-
-
                 </div>
                 <div className='header-right'>
                     <HelpOutlineIcon />

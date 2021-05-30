@@ -5,6 +5,10 @@ function App() {
     <div className="App">
       <Header />
 
+      {/*Sidebar*/}
+      {/*chat screen*/}
+
+
     </div>
   );
 }
