@@ -1,0 +1,43 @@
+.header-container{
+    display: flex;
+    background-color: darkorchid;
+    padding: 8px;
+    color: white;
+
+}
+
+.header-left{
+    display: flex;
+    flex: 0.3;
+    margin-left: 2px;
+    justify-content: start;
+}
+.header-historyicon{
+margin-left: 250px;
+}
+
+
+.header-center{
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex: 0.4;
+    justify-content: space-evenly;
+}
+
+.header-center > input{
+    padding: 5px;
+    flex:1;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(188, 125, 220);
+}
+
+.header-right{
+    display: flex;
+    flex: 0.3;
+    justify-content: space-evenly;
+
+
+}
