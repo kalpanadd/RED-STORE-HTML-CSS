@@ -1,0 +1,27 @@
+.sidebar{
+    background-color:darkorchid;
+    max-width: 350px;
+    color: white;
+    border: 1px solid rgb(186, 134, 213);
+}
+
+
+
+.sidebar-Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.sidebar-header-icon{
+    border: 2px solid white;
+    border-radius: 99%;
+    cursor: pointer;
+
+}
+.sidebar-Header > .sidebar-header-icon> .MUI-icon{
+
+}

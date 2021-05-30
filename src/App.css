@@ -2,4 +2,9 @@
   margin:0;
 }
 
+body{
+  --main-color: darkorchid;
+  --ligh:rgb(177, 115, 208)
+
+}
 
