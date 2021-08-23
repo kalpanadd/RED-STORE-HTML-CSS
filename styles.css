@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -84,3 +85,34 @@
 .home_img{
     flex: 0.5;
 }
+.featured{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 6rem;
+    
+}
+.featured_images{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: auto;
+}
+.featured_Text{
+    margin-top: 5rem;
+    font-family: 'Rubik', sans-serif;
+    color: rgba(51, 44, 44, 432);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#featured_h1{
+    border-bottom:5px solid brown;
+    margin: 10px;
+    padding: 1rem;
+    font-size: 1.5rem;
+
+
+}
+
