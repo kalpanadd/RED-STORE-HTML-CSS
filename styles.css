@@ -1,5 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+.homepage{
+    background-image: linear-gradient(pink,white,pink);
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    width: 100vw;
+    height: 10%;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.logo{
+    flex: 0.5;
+    margin-left: 10rem;
+}
+.logo > img{
+    cursor: pointer;
+
+}
+.nav-links{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:bold;
+    margin-right: 120px;
+}
+
+.nav-links > div{
+    cursor: pointer;
+
+}
+.home_div{
+    display: flex;
+    margin-top: 13rem;
+
+}
+.home_text{
+    flex: 0.5;
+    margin-left: 10rem;
+}
+.home_text > h1{
+    font-family: 'Archivo Narrow', sans-serif;
+    letter-spacing: 2px;
+    font-size: 3.5rem;
+
+}
+.home_text > p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.home_btn{
+    padding: 10px;
+    width: 30%;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background-color: tomato;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:bolder;
+    padding: 15px;
+}
+
+.home_btn:hover{
+    background-color: black;
+    color: white;
+    transition: ease-in none 3s;
+}
+.home_img{
+    flex: 0.5;
 }
